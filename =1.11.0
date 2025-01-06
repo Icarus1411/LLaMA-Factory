@@ -1,0 +1,12 @@
+Collecting modelscope
+  Downloading modelscope-1.21.1-py3-none-any.whl.metadata (40 kB)
+Requirement already satisfied: requests>=2.25 in /home/yangkai/.conda/envs/factory/lib/python3.11/site-packages (from modelscope) (2.32.3)
+Requirement already satisfied: tqdm>=4.64.0 in /home/yangkai/.conda/envs/factory/lib/python3.11/site-packages (from modelscope) (4.67.1)
+Requirement already satisfied: urllib3>=1.26 in /home/yangkai/.conda/envs/factory/lib/python3.11/site-packages (from modelscope) (2.3.0)
+Requirement already satisfied: charset-normalizer<4,>=2 in /home/yangkai/.conda/envs/factory/lib/python3.11/site-packages (from requests>=2.25->modelscope) (3.4.1)
+Requirement already satisfied: idna<4,>=2.5 in /home/yangkai/.conda/envs/factory/lib/python3.11/site-packages (from requests>=2.25->modelscope) (3.10)
+Requirement already satisfied: certifi>=2017.4.17 in /home/yangkai/.conda/envs/factory/lib/python3.11/site-packages (from requests>=2.25->modelscope) (2024.12.14)
+Downloading modelscope-1.21.1-py3-none-any.whl (5.8 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5.8/5.8 MB 12.6 MB/s eta 0:00:00
+Installing collected packages: modelscope
+Successfully installed modelscope-1.21.1

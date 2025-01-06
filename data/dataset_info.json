@@ -632,5 +632,22 @@
       "prompt": "content"
     },
     "folder": "python"
+  },
+  "prm800k_processed":{
+    "file_name": "process_prm800k.json"
+  },
+  "realign_math":{
+    "file_name": "realign/realign_math.json",
+    "formatting": "sharegpt",
+    "columns":{
+      "messages": "items"
+    }
+  },
+  "realign_gsm8k":{
+    "file_name": "realign/realign_gsm8k.json",
+    "formatting": "sharegpt",
+    "columns":{
+      "messages": "items"
+    }
   }
 }

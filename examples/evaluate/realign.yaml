@@ -1,0 +1,21 @@
+# Use trained model to evaluate on math
+
+### model
+model_name_or_path: /home/share/models/Qwen2.5-Math-7B-Instruct
+adapter_name_or_path: /home/yangkai/LLaMA-Factory/saves/qwen2.5-math-7b/lora/sft-realign
+trust_remote_code: true
+
+### method
+finetuning_type: lora
+
+### dataset
+task: ceval_validation  # choices: [mmlu_test, ceval_validation, cmmlu_test]
+template: fewshot
+lang: zh
+n_shot: 5
+
+### output
+save_dir: /home/yangkai/LLaMA-Factory/saves/qwen2.5-math-7b/lora/sft-realign/predict-ceval_validation
+
+### eval
+batch_size: 4
